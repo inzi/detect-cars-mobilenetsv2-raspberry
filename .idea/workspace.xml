@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26381ae1-6b54-489a-8109-b0ea4352b21d" name="Default Changelist" comment="" />
+    <list default="true" id="26381ae1-6b54-489a-8109-b0ea4352b21d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/object_detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/object_detection.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,22 +20,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="5" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="5" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2754" />
+          <entry key="py" value="2784" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2754" />
+          <entry key="Python" value="2784" />
         </counts>
       </usages-collector>
     </session>
@@ -41,10 +43,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/detection_module/object_detection.py">
+        <entry file="file://$PROJECT_DIR$/object_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="175" column="95" lean-forward="true" selection-start-line="175" selection-start-column="95" selection-end-line="175" selection-end-column="95" />
+            <state relative-caret-position="675">
+              <caret line="279" column="63" lean-forward="true" selection-start-line="279" selection-start-column="63" selection-end-line="279" selection-end-column="63" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -57,12 +59,17 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>get_scale</find>
+      <find>click</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/detection_module/object_detection.py" />
+        <option value="$PROJECT_DIR$/object_detection.py" />
       </list>
     </option>
   </component>
@@ -92,6 +99,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -104,11 +112,6 @@
             <path>
               <item name="object_detection" type="b2602c69:ProjectViewProjectNode" />
               <item name="object_detection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="object_detection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="object_detection" type="462c0819:PsiDirectoryNode" />
-              <item name="detection_module" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -157,7 +160,7 @@
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="4" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
@@ -207,8 +210,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/detection_module/object_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="175" column="95" lean-forward="true" selection-start-line="175" selection-start-column="95" selection-end-line="175" selection-end-column="95" />
+        <state relative-caret-position="-2365">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detection_module/image_processor/imageprocessor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/object_detection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="279" column="63" lean-forward="true" selection-start-line="279" selection-start-column="63" selection-end-line="279" selection-end-column="63" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

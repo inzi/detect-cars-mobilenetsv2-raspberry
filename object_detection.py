@@ -277,5 +277,5 @@ if __name__ == '__main__':
         #results = detect.object_get_results(path_to_original_image, detect=True)
         #results = detect._detect_objects(path_to_original_image)
 
-        print('TOTAL TIME IS...: ', tiempoMedicion-time.time())
+        print('TOTAL TIME IS...: ', time.time() - tiempoMedicion)
         print(results)
